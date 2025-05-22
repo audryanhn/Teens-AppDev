@@ -1,10 +1,10 @@
 import { SafeAreaView } from "react-native-safe-area-context";
-import FirstScreen from "./src/screens/FirstScreen";
+import SecondScreen from "./src/screens/SecondScreen";
 
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <FirstScreen />
+      <SecondScreen />
     </SafeAreaView>
   );
 }
