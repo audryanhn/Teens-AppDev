@@ -13,7 +13,7 @@ const styles = {
   },
 };
 
-const SecondScreen = () => {
+const SecondScreen = ({ style }) => {
   const showAlert = (game) => {
     game === "mobile legends"
       ? alert("You Choose Mobile Legends")
@@ -24,7 +24,7 @@ const SecondScreen = () => {
   return (
     <View
       style={{
-        flex: 1,
+        flex: style,
         backgroundColor: "lavender",
         justifyContent: "center",
         alignItems: "center",

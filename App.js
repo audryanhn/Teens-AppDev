@@ -1,10 +1,10 @@
 import { SafeAreaView } from "react-native-safe-area-context";
-import SecondScreen from "./src/screens/SecondScreen";
+import ThirdScreen from "./src/screens/ThirdScreen";
 
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <SecondScreen />
+      <ThirdScreen />
     </SafeAreaView>
   );
 }
